@@ -11,7 +11,7 @@
     } else {
       erroMsg.style.display = "none";
       // Redireciona para home.html se tudo estiver preenchido
-      window.location.href = "home.html";
+      window.location.href = "index.html";
     }
   });
    function validarFormulario() {
@@ -28,7 +28,7 @@
 
       if (todosPreenchidos) {
         erroMsg.style.display = "none";
-        window.location.href = "home.html"; // redireciona para home
+        window.location.href = "index.html"; // redireciona para home
       } else {
         erroMsg.style.display = "block";
       }
