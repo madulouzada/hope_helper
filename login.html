@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang= "pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Login Hope Helper</title>
+    <link rel="stylesheet" href="login.css">
+    <script src="overlay.js" defer></script>
+</head>
+<body class="corpo">
+    <header class="cabecalho">
+        <section class="container__principal">
+            <nav class="container__navegacao">
+                <div class="container__logo">
+                    <img class="container__imagemlogo" src="assets/cerebro (1).png" alt="logo da empresa">
+                    <a class="container__aba" >
+                    <div class="container__escritalogo">
+                        <span class="container__spanlogo"> Bem - Vindo ao </span>
+                        <div class="container__fontelogo">
+                            <span class="container__spanlogo"> HOPE HELPER </span>
+                        </div>
+                    </div>
+                    </a>
+                </div>
+                <div class="container__abagap">
+                    <a class="container__aba" href="quemsomos.html" >QUEM SOMOS</a>
+                    <a class="container__aba" href="sobresite.html" >SOBRE O SITE</a>
+                </div>
+            </nav>
+            <h1 class="container__h1">Uma aplicação Web personalidade através de suas caracteristicas, criada para apoiar sua saúde e inteligência mental de forma simples e acessível.</h1>
+        </section>
+        <hr>
+    </header>
+    <main class="principal">
+        <form class="principal__formulario"  id="formLogin">
+            <h2 class="principal__h2">AMBIENTE PARA CADASTRAMENTO
+            </h2>
+            <div class="principal__espacamentoh2">
+                <label for="login">Login:</label>
+            </div>
+                <input class="principal__input" type="email" id="login" placeholder="exemplo@exemplo.com.br" required>
+            <br>
+            <br>
+            <label for="senha">Senha:</label>
+            <input class="principal__input" type="password" id="senha" placeholder="Digite sua senha" required>
+            <br>
+            <br>
+             <p class="erro" id="erroMsg" style="color: rgb(105, 32, 32); display: none;"></p>
+
+            <a class="principal__botao" href="formulario.html">CADASTRAR</a>
+            <button class="principal__botao" type="button" class="principal__botao" id="btnEntrar">ENTRAR</button>
+        </form>
+        <hr >
+        <p class="escrita__paragrafo">Descubra o Hope Helper, a plataforma dedicada ao seu bem-estar emocional! Oferecemos uma maneira simples e acessível para você monitorar seu humor diário, acessar conteúdos educativos sobre saúde mental, e conectar-se com uma rede de apoio acolhedora. Além disso, indicamos profissionais e serviços  para garantir que você tenha o suporte necessário. Cuide da sua saúde mental de forma interativa, segura e inclusiva. Junte-se a nós e faça parte dessa jornada de autoconhecimento e apoio!
+        </p>
+    </main>
+    <footer>HOPE HELPER</footer>
+</body>
+</html>

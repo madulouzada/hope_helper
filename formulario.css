@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans&family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Judson:ital,wght@0,400;0,700;1,400&display=swap');
+
+:root{
+    --primeira-cor: #20BBC0; /*azul de fundo*/
+    --segunda-cor: #f6f6f6; /*branco*/
+    --terceira-cor: #014773; /*azul letra da aba, texto e footer do login*/
+    --quarta-cor: #13669A; /*azul de dentro do botão de cadastro*/
+    --quinta-cor: #33658A80; /*azul transaparente*/
+    --quinta-cor: #000000;
+    --cor-hover: #2B8FA0;
+    --cor-form: #33658A80;
+    --cor-transparente: rgba(32, 187, 192, 0.5);
+    --cor-botton: rgba(255, 255, 255, 0.63);
+
+    --fonte-primaria: "Inria Sans", sans-serif;
+    --segunda-fonte:"Inria Serif", sans-serif;
+    --terceira-fonte:"Judson", sans-serif;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+   
+   body {
+      color: var(--segunda-cor);
+      font-family: var(--fonte-primaria);
+      max-width: 600px;
+      margin: auto;
+      padding: 20px;
+      background-color:rgba(32, 187, 192, 0.7);
+    }
+    .h2 {
+      text-align: center;
+      color: var(--terceira-cor);
+    }
+  
+    p{
+      font-family: var(--terceira-fonte);
+      text-align: center;
+      padding: 10px;
+    }
+
+    form{
+      color: var(--terceira-cor);
+    }
+
+    label {
+      display: block;
+      margin-top: 15px;
+      font-weight: bold;
+    }
+    input[type="text"], textarea {
+      width: 100%;
+      padding: 8px;
+      margin-top: 5px;
+      box-sizing: border-box;
+    }
+    .button-group {
+      margin-top: 20px;
+      text-align: center;
+    }
+    
+    button:hover{
+      background-color: var(--cor-hover);
+    }
+
+    .caixa__dialogo{
+      border: none;
+      border-radius: 5px;
+      background-color: rgba(255, 255, 255, 0.22);
+      border: var(--terceira-cor);
+      padding: 15;
+    }
+
+     .caixa__dialogooption{
+      border: none;
+      border-radius: 5px;
+      background-color: rgba(255, 255, 255, 0.22);
+      border: var(--terceira-cor);
+      padding: 5px;
+      color: var(--terceira-cor);
+      
+    }
+
+.principal__botao {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 44px;
+    width: 116px;
+    background-color: var(--quarta-cor);
+    border-radius: 15px;
+    text-decoration: none;
+    border: none;
+    color: var(--segunda-cor);
+    transition: background-color 0.3s ease;
+    margin: 0 1px; 
+    font-size: 18px;
+}
+
+
+button{
+  text-decoration: none;
+}
+
+.erro {
+    color: red;
+    padding: 10px;
+    font-weight: bold;
+    display: none;}

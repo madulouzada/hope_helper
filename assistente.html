@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="homem.css">
+    <link rel="stylesheet" href="assistente.css">
+    <script src="assistente.js" defer></script>
+
+    <title>Hope Helper </title>
+</head>
+
+<body class="corpo">
+    <header class="cabecalho">
+        <section class="container__principal1">
+            <nav class="container__navegacao">
+                <div class="container__logo">
+                    <img class="container__imagemlogo" src="assets/cerebro (1).png" alt="logo da empresa">
+                    <a class="container__aba" href="login.html">
+                    <div class="container__escritalogo">
+                        <span class="container__spanlogo"> Bem - Vindo ao </span>
+                        <div class="container__fontelogo">
+                            <span class="container__spanlogo"> HOPE HELPER </span>
+                        </div>
+                    </div>
+                    </a>
+                </div>
+                <div class="container__abagap">
+                    <a class="container__aba" href="home.html">Home</a>
+                    <a class="container__aba" href="assistente.html">Assistencia Hope</a>
+                    <a class="container__aba" href="profissionais.html">Profissionais</a>
+                </div>
+            </nav>
+    </header>
+    <main>
+        <div class="container">
+            <div class="header">
+                <h1 class="greeting">Olá! </h1>
+                <p class="subtitle">Seja bem-vindo(a) ao nosso espaço de cuidado com a saúde mental, Hope Helper.</p>
+            </div>
+
+            <div class="chat-section">
+                <div class="chat-header">
+                    <h3>Como posso te ajudar hoje?</h3>
+                    <p>Você merece cuidado, atenção e um espaço seguro para falar sobre o que sente. Conte comigo para
+                        te guiar da melhor forma possível. </p>
+                </div>
+
+                <div class="chat-input-area">
+                    <div class="input-wrapper">
+                        <textarea class="chat-input"
+                            placeholder="Digite sua mensagem aqui... Como você está se sentindo hoje?"
+                            rows="2"></textarea>
+                    </div>
+                    <button class="send-btn" onclick="sendMessage()">Enviar</button>
+                </div>
+
+                <div class="typing-animation">
+                    <span>Assistente está digitando</span>
+                    <div class="dot"></div>
+                    <div class="dot"></div>
+                    <div class="dot"></div>
+                </div>
+            </div>
+               <div class="disclaimer">
+            <strong>Importante:</strong> Este assistente oferece apoio emocional e informações sobre saúde mental, mas
+            não substitui o acompanhamento profissional. Para situações de emergência ou crises, procure ajuda médica
+            imediatamente ou entre em contato com o CVV (188).
+        </div>
+            <div class="fundo">
+                    <div class="feedback-form">
+                    <h4>Compartilhe sua experiência</h4>
+                    <div class="rating-input">
+                        <span>Sua avaliação:</span>
+                        <div class="stars-input">
+                            <span class="star-input" data-rating="1">☆</span>
+                            <span class="star-input" data-rating="2">☆</span>
+                            <span class="star-input" data-rating="3">☆</span>
+                            <span class="star-input" data-rating="4">☆</span>
+                            <span class="star-input" data-rating="5">☆</span>
+                        </div>
+                    </div>
+                    <textarea class="feedback-input" placeholder="Conte-nos como foi sua experiência..."></textarea>
+                    <button class="feedback-btn">Enviar Feedback</button>
+                </div>
+
+                <!-- Seção de Feedback ATUALIZADA -->
+
+                    <div class="feedback-carousel">
+                     
+
+
+                        <!-- Container do Feedback -->
+                          <div class="feedback-section">
+                <div class="feedback-header">
+                    <h3>O QUE FALAM DA HOPE</h3>
+                </div>
+                
+                <div class="feedback-slider">
+                    <div class="feedback-track">
+                        <div class="feedback-card">
+                            <div class="user-info">
+                                <div class="user-avatar">M</div>
+                                <div class="user-details">
+                                    <h4>MARIA JULIA</h4>
+                                    <div class="rating">
+                                        <span class="star">⭐</span>
+                                        <span class="star">⭐</span>
+                                        <span class="star">⭐</span>
+                                        <span class="star">⭐</span>
+                                        <span class="star">⭐</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="feedback-text">
+                                <p>"O site me acolheu em um momento em que eu mais precisava. Encontrei informação, apoio e consegui agendar ajuda com facilidade. Foi um passo importante na minha jornada. Obrigada por estarem aqui."</p>
+                            </div>
+                        </div>
+
+                        <div class="feedback-card">
+                            <div class="user-info">
+                                <div class="user-avatar">J</div>
+                                <div class="user-details">
+                                    <h4>JOÃO PEDRO</h4>
+                                    <div class="rating">
+                                        <span class="star">⭐</span>
+                                        <span class="star">⭐</span>
+                                        <span class="star">⭐</span>
+                                        <span class="star">⭐</span>
+                                        <span class="star">⭐</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="feedback-text">
+                                <p>"Nunca imaginei que encontraria tanto apoio online. A Hope me ajudou a entender que não estou sozinho e me deu coragem para buscar ajuda profissional. Recomendo para todos."</p>
+                            </div>
+                        </div>
+
+                        <div class="feedback-card">
+                            <div class="user-info">
+                                <div class="user-avatar">A</div>
+                                <div class="user-details">
+                                    <h4>ANA CLARA</h4>
+                                    <div class="rating">
+                                        <span class="star">⭐</span>
+                                        <span class="star">⭐</span>
+                                        <span class="star">⭐</span>
+                                        <span class="star">⭐</span>
+                                        <span class="star">⭐</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="feedback-text">
+                                <p>"Sempre tive dificuldade em falar sobre meus sentimentos. Aqui encontrei um ambiente seguro e acolhedor. O suporte que recebi foi fundamental para minha recuperação."</p>
+                            </div>
+                        </div>
+
+                        <div class="feedback-card">
+                            <div class="user-info">
+                                <div class="user-avatar">R</div>
+                                <div class="user-details">
+                                    <h4>RAFAEL SANTOS</h4>
+                                    <div class="rating">
+                                        <span class="star">⭐</span>
+                                        <span class="star">⭐</span>
+                                        <span class="star">⭐</span>
+                                        <span class="star">⭐</span>
+                                        <span class="star">⭐</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="feedback-text">
+                                <p>"A Hope mudou minha perspectiva sobre buscar ajuda. As informações são claras e o atendimento é humanizado. Recomendo a todos que precisam de apoio emocional."</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                         <div class="slider-controls">
+                        <button class="slider-btn prev-btn" onclick="slideLeft()">‹</button>
+                        <button class="slider-btn next-btn" onclick="slideRight()">›</button>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+   <div class="suporte">
+                <p><strong>SUPORTE PROFISSIONAL</strong></p>
+            </div>
+            <div class="suporte__contato">
+                <div class="contato__item">
+                    <img class="logo__suporte" src="assets/telefone.png" alt="DisqueDenuncia">
+                    <p>Disque Denúncia<br> <strong>181</strong></p>
+                </div>
+                <div class="contato__item">
+                    <img class="logo__suporte" src="assets/bombeiro.png" alt="CorpoBombeiros">
+                    <p>Corpo de Bombeiros<br> <strong>193</strong></p>
+                </div>
+                <div class="contato__item">
+                    <img class="logo__suporte" src="assets/distintivo-de-policia.png" alt="PolíciaMilitar">
+                    <p>Polícia Militar <br> <strong>190</strong></p>
+                </div>
+                <div class="contato__item">
+                    <img class="logo__suporte" src="assets/coracao.png" alt="CentroValorizaçãoVida">
+                    <p>Centro de Valorização da Vida <br><strong>188</strong></p>
+                </div>
+                <div class="contato__item">
+                    <img class="logo__suporte" src="assets/pronto-socorro.png" alt="ProntoSocorro">
+                    <p>Pronto Socorro <br><strong>192</strong></p>
+                </div>
+            </div>
+    </main>
+</body>
+<footer>
+    <div class="logo">
+        <img class="container__imagemlogo" src="assets/cerebro (1).png" alt="Logo Hope Helper">
+    </div>
+    <div class="slogan">
+        <strong>HOPE HELPER</strong>
+        <br>
+        <p>Em busca da sua saúde mental e física!</p>
+    </div>
+    <div class="copyright">
+        2025 Hope Helper - Todos os direitos reservados
+    </div>
+</footer>

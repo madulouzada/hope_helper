@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+   <title>Formulário de Suporte</title>
+   
+  <link rel="stylesheet" href="formulario.css">
+  <script src="overlay.js" defer></script>
+ 
+</head>
+<body>
+
+  <h2>Formulário de Suporte</h2>
+  <p>Para oferecer a você um suporte mais personalizado e preciso, é necessário preencher o formulário abaixo. Com as informações fornecidas, poderemos analisar suas respostas e trazer recomendações, conteúdos e resultados ajustados às suas necessidades.</p>
+
+   <form id="form-suporte">
+    <label for="genero">Gênero:</label>
+    <select class="caixa__dialogooption" id="genero" name="genero">
+      <option class="caixa__dialogooption" value="">Selecione </option>
+      <option class="caixa__dialogooption" value="feminino">Feminino</option>
+      <option class="caixa__dialogooption" value="masculino">Masculino</option>
+      <option class="caixa__dialogooption" value="outro">Outros</option>
+    </select>
+    <label for="nome">Nome Completo:</label>
+    <input class="caixa__dialogo" type="text" id="nome" style= "color: #014773;" name="nome">
+    <label for="gostos">Quais são os seus principais gostos e hobbies?</label>
+    <textarea class="caixa__dialogo" id="gostos" style= "color: #014773;" name="gostos" rows="3"></textarea>
+
+    <label for="medos">Quais são os seus maiores medos ou preocupações?</label>
+    <textarea class="caixa__dialogo" id="medos" style= "color: #014773;" name="medos" rows="3"></textarea>
+
+    <label for="gatilhos">Você já identificou algum gatilho emocional que desencadeia no seu dia a dia?</label>
+    <textarea class="caixa__dialogo" id="gatilhos" style= "color: #014773;" name="gatilhos" rows="3"></textarea>
+
+    <label for="apoio">Você tem algum apoio emocional em sua vida?</label>
+    <textarea class="caixa__dialogo" id="apoio" style= "color: #014773;" name="apoio" rows="3"></textarea>
+
+     <p id="erro-msg" class="erro">Por favor, preencha todos os campos antes de continuar.</p>
+
+    <div class="button-group">
+      <a class="principal__botao" href="login.html">CANCELAR</a>
+       <button class="principal__botao" type="button" class="principal__botao" onclick="validarFormulario()">ENTRAR</button>
+    </div>
+  </form>
+
+</body>
+</html>
