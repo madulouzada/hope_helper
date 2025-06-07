@@ -1,20 +1,19 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-
+<html lang= "pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="homem.css">
-    <title>Hope Helper </title>
+    <title> Login Hope Helper</title>
+    <link rel="stylesheet" href="login.css">
+    <script src="overlay.js" defer></script>
 </head>
-
 <body class="corpo">
     <header class="cabecalho">
         <section class="container__principal">
             <nav class="container__navegacao">
                 <div class="container__logo">
                     <img class="container__imagemlogo" src="assets/cerebro (1).png" alt="logo da empresa">
-                     <a class="container__aba" href="login.html">
+                    <a class="container__aba" >
                     <div class="container__escritalogo">
                         <span class="container__spanlogo"> Bem - Vindo ao </span>
                         <div class="container__fontelogo">
@@ -24,107 +23,37 @@
                     </a>
                 </div>
                 <div class="container__abagap">
-                    <a class="container__aba" href="index.html">Home</a>
-                    <a class="container__aba" href="assistente.html">Assistencia Hope</a>
-                    <a class="container__aba" href="profissionais.html">Profissionais</a>
+                    <a class="container__aba" href="quemsomos.html" >QUEM SOMOS</a>
+                    <a class="container__aba" href="sobresite.html" >SOBRE O SITE</a>
                 </div>
             </nav>
-            <h1 class="container__h1"> CUIDAR DA SUA MENTE É TÃO IMPORTANTE QUANTO CUIDAR DO SEU CORPO – <br>
-                <span class="container__h1span">A paz interior é o primeiro passo para uma vida equilibrada.</span>
-            </h1>
+            <h1 class="container__h1">Uma aplicação Web personalidade através de suas caracteristicas, criada para apoiar sua saúde e inteligência mental de forma simples e acessível.</h1>
+        </section>
+        <hr>
     </header>
-    <main>
-        <section>
-            <hr>
-
-            <section>
-                <p class="escrita__paragrafo">Como você está se sentindo neste instante?</p>
-                <div class="formatacao">
-                    <div class="buttons">
-                        <button class="botao"> 😀 Feliz </button>
-                        <button class="botao"> 😞 Triste </button>
-                        <button class="botao"> 😡 Irritado </button>
-                        <button class="botao"> 😭 Chorando </button>
-                        <button class="botao"> 😨 Ansioso </button>
-                        <button class="botao"> 😎 Confiante </button>
-                        <button class="botao"> 😴 Cansado </button>
-                        <button class="botao"> 🥰 Apaixonado </button>
-                        <button class="botao"> 🤢 Doente </button>
-                        <button class="botao"> 🤯 Sobrecarregado </button>
-                    </div>
-                </div>
-            </section>
-            <section class="caixa_dialogo">
-                <h2> SAÚDE MENTAL NOS DIAS DE HOJE </h2>
-                <p> Em um mundo cada vez mais acelerado e exigente, cuidar da saúde mental tornou-se essencial. O
-                    excesso de informações, a pressão no trabalho e nas redes sociais, além das incertezas do cotidiano,
-                    podem gerar estresse, ansiedade e esgotamento.
-                    Priorizar o bem-estar emocional envolve buscar equilíbrio, estabelecer limites, praticar o
-                    autocuidado e, quando necessário, procurar ajuda profissional. Pequenos hábitos, como descanso
-                    adequado, exercícios físicos e momentos de lazer, fazem diferença.
-                    A saúde mental não deve ser ignorada. Falar sobre isso, apoiar quem precisa e normalizar o
-                    autocuidado são passos fundamentais para uma vida mais leve e saudável.
-                </p>
-            </section>
-            <section class="caixa_dialogo">
-                <h2>Fatores que Ocasionam o Desgaste Mental</h2>
-                <p>O desgaste mental é um problema crescente na sociedade moderna, afetando a saúde psicológica e física
-                    das pessoas. Esse fenômeno ocorre devido à sobrecarga emocional, estresse contínuo e dificuldades na
-                    gestão das demandas diárias. A falta de equilíbrio entre trabalho, vida pessoal e descanso pode
-                    levar à exaustão, prejudicando a concentração, produtividade e bem-estar.</p>
-            </section>
-            <section class="container-grid ">
-                <p class="card"> <strong class="strong">Sobrecarga de Trabalho</strong> <br>
-                    Excesso de tarefas e prazos curtos geram estresse e ansiedade.
-                </p>
-                <p class="card"> <strong class="strong">Falta de Descanso</strong> <br>
-                    Sono inadequado ou insuficiente impacta a capacidade cognitiva e emocional.
-                </p>
-                <p class="card"> <strong class="strong">Cobrança Exagerada </strong> <br>
-                    Pressão excessiva para alcançar metas pode gerar frustração e cansaço.</p>
-                <p class="card"> <strong class="strong">Sedentarismo e Má Alimentação <br> </strong>
-                    Hábitos não saudáveis impactam o funcionamento do cérebro e o humor.</p>
-            </section>
-
-            <div class="suporte">
-                <p><strong>SUPORTE PROFISSIONAL</strong></p>
+    <main class="principal">
+        <form class="principal__formulario"  id="formLogin">
+            <h2 class="principal__h2">AMBIENTE PARA CADASTRAMENTO
+            </h2>
+            <div class="principal__espacamentoh2">
+                <label for="login">Login:</label>
             </div>
-            <div class="suporte__contato">
-                <div class="contato__item">
-                    <img class="logo__suporte" src="assets/telefone.png" alt="DisqueDenuncia">
-                    <p>Disque Denúncia<br> <strong>181</strong></p>
-                </div>
-                <div class="contato__item">
-                    <img class="logo__suporte" src="assets/bombeiro.png" alt="CorpoBombeiros">
-                    <p>Corpo de Bombeiros<br> <strong>193</strong></p>
-                </div>
-                <div class="contato__item">
-                    <img class="logo__suporte" src="assets/distintivo-de-policia.png" alt="PolíciaMilitar">
-                    <p>Polícia Militar <br> <strong>190</strong></p>
-                </div>
-                <div class="contato__item">
-                    <img class="logo__suporte" src="assets/coracao.png" alt="CentroValorizaçãoVida">
-                    <p>Centro de Valorização da Vida <br><strong>188</strong></p>
-                </div>
-                <div class="contato__item">
-                    <img class="logo__suporte" src="assets/pronto-socorro.png" alt="ProntoSocorro">
-                    <p>Pronto Socorro <br><strong>192</strong></p>
-                </div>
-            </div>
-            </div>
-    </main>
-    <footer>
-        <div class="logo">
-            <img class="container__imagemlogo" src="assets/cerebro (1).png" alt="Logo Hope Helper">
-        </div>
-        <div class="slogan">
-            <strong>HOPE HELPER</strong>
+                <input class="principal__input" type="email" id="login" placeholder="exemplo@exemplo.com.br" required>
             <br>
-            <p>Em busca da sua saúde mental e física!</p>
-        </div>
-        <div class="copyright">
-            2025 Hope Helper - Todos os direitos reservados
-        </div>
-    </footer>
+            <br>
+            <label for="senha">Senha:</label>
+            <input class="principal__input" type="password" id="senha" placeholder="Digite sua senha" required>
+            <br>
+            <br>
+             <p class="erro" id="erroMsg" style="color: rgb(105, 32, 32); display: none;"></p>
 
+            <a class="principal__botao" href="formulario.html">CADASTRAR</a>
+            <button class="principal__botao" type="button" class="principal__botao" id="btnEntrar">ENTRAR</button>
+        </form>
+        <hr >
+        <p class="escrita__paragrafo">Descubra o Hope Helper, a plataforma dedicada ao seu bem-estar emocional! Oferecemos uma maneira simples e acessível para você monitorar seu humor diário, acessar conteúdos educativos sobre saúde mental, e conectar-se com uma rede de apoio acolhedora. Além disso, indicamos profissionais e serviços  para garantir que você tenha o suporte necessário. Cuide da sua saúde mental de forma interativa, segura e inclusiva. Junte-se a nós e faça parte dessa jornada de autoconhecimento e apoio!
+        </p>
+    </main>
+    <footer>HOPE HELPER</footer>
+</body>
 </html>
